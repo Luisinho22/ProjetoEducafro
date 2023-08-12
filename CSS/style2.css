@@ -1,0 +1,89 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{ 
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgb(207, 207, 207);
+    background-repeat: no-repeat;
+    padding: 0px; /* espaçamento interno */ 
+    margin: 0px;   /* espaçamento externo */ 
+    color: rgb(207, 207, 207);
+}
+
+nav{
+    display: flex;
+    background-color: rgb(50, 50, 88);
+    height:70px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    justify-content:flex-start;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+.voltar{
+    color: rgb(207, 207, 207);
+    padding-top: 16px;
+    margin-right: 400px;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.futebol{
+    height: 600px;
+    width: 400px;
+}
+
+.relogio{
+    height: 200px;
+    width: 400px;
+}
+
+.card1{
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.34 ) 8px 8px 16px; /*sombra*/
+    padding: 1rem;
+    background-color: rgb(50, 50, 88);
+}
+ 
+.card2{
+   border: 1px solid black;
+   box-shadow: rgba(0, 0, 0, 0.34) 8px 8px 16px;
+   height: 350px;
+   padding: 1rem;
+   margin: 10px;
+   background-color: rgb(50, 50, 88);
+}
+
+.botao{
+    background-color: rgb(207, 207, 207);
+    color: rgb(50, 50, 88);
+    border-radius: 45px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.34 ) 8px 8px 16px;
+}
+
+.butao:hover{
+    background-color: rgb(62, 62, 113);
+    color: rgb(207, 207, 207);
+}
+
+a{
+    text-decoration: none;
+}
